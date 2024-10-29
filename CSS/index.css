@@ -1,0 +1,27 @@
+.border-movie {
+    text-align: center;
+}
+
+.movie-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movie-time {
+    list-style-type: none;
+}
+
+.form-login {
+    text-align: center;
+}
+
+.login-welcome {
+    text-align: center;
+}
+
+.button-halaman-login {
+    text-align: center;
+}
+
+.form-pemesanan {
+    text-align: center;
+}

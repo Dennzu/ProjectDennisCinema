@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Tiket</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JavaScript/index.js"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <!-- Form Pesan Tiket -->
+     <table>
+        <tr class="film">
+            <label for="filmdj">Pilih Film Anda</label><br>
+                <select name="film" id="djmovie">
+                    <option value="Creed">Creed</option>
+                    <option value="Dune">Dune</option>
+                    <option value="GeorgeForeman">George Foreman</option>
+                    <option value="Roadhouse">Roadhouse</option>
+                </select>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <label for="subject">Pilih Kursi Anda</label><br>
+                <select name="kursi" id="kursibioskop">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <option value="G">F</option>
+                </select>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <label for="makanan">Pilih Makanan Anda</label><br>
+                <select name="mr" id="makananRingan">
+                    <optgroup label="Makanan Ringan">
+                        <option value="ff">French Fries</option>
+                        <option value="Burger">Burger</option>
+                        <option value="steak">Steak</option>
+                        <option value="PopCorn">PopCorn</option>
+                    </optgroup>
+                    <optgroup label="Makanan Berat">
+                        <option value="ng">Nasi Goreng</option>
+                        <option value="mg">Mie Goreng</option>
+                        <option value="mps">Mix Potatoes Salad</option>
+                        <option value="meatball">Meatballs with SoySauce</option>
+                    </optgroup>
+                </select>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <label for="makanan">Makanan Tambahan</label><br>
+            <input type="text">
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <label for="minuman">Pilih Minuman Anda</label><br>
+                <select name="minumanXXI" id="minumanRingan">
+                    <optgroup label="Fresh Drink">
+                        <option value="icetea">Ice Tea</option>
+                        <option value="miloais">Ice Milo</option>
+                        <option value="jasminetea">Jasmine Tea</option>
+                        <option value="peachfruit">Peach Fruit Tea</option>
+                    </optgroup>
+                    <optgroup label="coffee">
+                        <option value="vietnam">Vietnam Coffee</option>
+                        <option value="aren">Coffee + Aren Sweet</option>
+                        <option value="tubruk">Kopi Tubruk</option>
+                        <option value="denhaag">Den Haag Coffee</option>
+                    </optgroup>
+                </select>
+        </tr>
+     </table>
+     <br>
+
+     <!-- Button Pesan Receipt -->
+      <button>Pesan Receipt !</button>
+
+</body>
+
+</html>
